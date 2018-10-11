@@ -1,0 +1,41 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+
+/* http://kb.mozillazine.org/index.php?title=UserChrome.css&printable=yes */
+/* https://www.userchrome.org/ */
+
+
+
+/*https://gist.github.com/Arty2/4658f49ca815980b0cb2*/
+#main-window[privatebrowsingmode=temporary] #urlbar {
+  border-color: #303 !important;
+  background-color: #303 !important;
+  color: #fff !important;
+}
+
+#main-window[privatebrowsingmode=temporary] .tabbrowser-tab[selected] {
+	background: #303 !important;
+}
+
+/* https://support.mozilla.org/en-US/questions/1158488 */
+#main-window[privatebrowsingmode="temporary"] #TabsToolbar {
+  background-color: #303 !important;
+}
+
+
+/* @-moz-document url("about:newtab") {
+ body { background-color: #EDCF54 !important;}
+} */
+
+
+/* #nav-bar { display: none } */
+#main-window[privatebrowsingmode="temporary"] #nav-bar {
+  background-color: #B5B5B5 !important;
+}
+
+/* https://support.mozilla.org/en-US/questions/1184924 */
+/* https://github.com/wilfredwee/photon-australis/blob/master/userChrome-default.css */
+#main-window[privatebrowsingmode="temporary"] .tab-background {
+	background: #B5B5B5 !important;
+}
+
